@@ -1,0 +1,11 @@
+-- create a table
+CREATE TABLE department (
+  deptid INTEGER PRIMARY KEY,
+  deptname TEXT NOT NULL,
+  deptloc TEXT NOT NULL
+);
+-- insert some values
+INSERT INTO department VALUES (2341, 'Physics', 'Chennai');
+INSERT INTO department VALUES (2367, 'Chemistry', 'Hyderabad');
+INSERT INTO department VALUES (2389, 'Physics', 'Chennai');
+INSERT INTO department VALUES (2334, 'Science', 'Bangalore');

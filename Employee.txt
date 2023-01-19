@@ -1,0 +1,19 @@
+Employee Table :
+
+-- create a table
+CREATE TABLE employee (
+  empid INTEGER PRIMARY KEY,
+  empname TEXT NOT NULL,
+  empsal FLOAT NOT NULL,
+  empdob VARCHAR(20) NOT NULL,
+  emploc TEXT NOT NULL
+);
+-- insert some values
+INSERT INTO employee VALUES (1234, 'Jahnavi', 23452.8, 23-09-1990, 'Hyderabad');
+INSERT INTO employee VALUES (1235, 'Kiranmai', 19000.8, 23-07-1998, 'Chennai');
+INSERT INTO employee VALUES (1236, 'Venkat', 80000.0, 08-09-2010, 'Coimbatore');
+INSERT INTO employee VALUES (1237, 'Prasanna', 34000.5, 09-10-2001, 'Chennai');
+INSERT INTO employee VALUES (1238, 'Lavanya', 7810.8, 20-02-2001, 'Hyderabad');
+INSERT INTO employee VALUES (1239, 'Sneha', 12000.9, 06-12-1999, 'Noida');
+INSERT INTO employee VALUES (1240, 'Tina', 17000.0, 23-10-1987, 'Bangalore');
+
